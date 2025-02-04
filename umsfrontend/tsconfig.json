@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "es2020",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,  // This can sometimes help with resolving issues related to type declarations.
+        "resolveJsonModule": true  // In case you're importing JSON files.
+    },
+    "include": ["src"]
+}
